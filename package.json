@@ -9,6 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "ethiotelecom-login-util": "^1.0.6",
+    "ethiotelecom-login-util-js": "^1.1.4",
+    "lucide-react": "^0.561.0",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1"
