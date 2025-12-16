@@ -1,26 +1,14 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "ethio-telecom-colors/css/next.css";
+/* app/globals.css */
+@import "ethio-telecom-colors/css/colors.css";
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Example usage */
+.button-primary {
+  background-color: var(--primary);
+  color: var(--eth-black);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
 }
