@@ -1,14 +1,2 @@
 @import "tailwindcss";
 
-@import "ethio-telecom-colors/css/next.css";
-/* app/globals.css */
-@import "ethio-telecom-colors/css/colors.css";
-
-/* Example usage */
-.button-primary {
-  background-color: var(--primary);
-  color: var(--eth-black);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-}
